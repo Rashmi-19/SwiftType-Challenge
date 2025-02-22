@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div class="main-container" id="speedTypingTest">
+        <h1 class="heading">Speed Typing Test</h1>
+        <p class="paragraph">On your fingers lets set Go!</p>
+        <div class="d-flex">
+            <img src="https://assets.ccbp.in/frontend/dynamic-webapps/clock-img.png" class="adjust mr-4" />
+            <p class="big ml-3" id="timer"><span class="pspan">seconds</span></p>
+        </div>
+        <div class="card-container">
+            <p id="quoteDisplay" class="mb-3"></p>
+            <textarea id="quoteInput" cols=23 rows=5 placeholder="Type here!!"></textarea>
+        </div>
+        <div class="d-none" id="spinner">
+            <div class="d-flex justify-content-center">
+                <div class="spinner-border" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+        </div>
+        <p id="result"></p>
+        <button class="btn-violet ml-2" id="submitBtn">Submit</button>
+        <button class="btn-white ml-3" id="resetBtn">Reset</button>
+    </div>
+</body>
+
+</html>
